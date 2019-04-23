@@ -1,0 +1,25 @@
+
+img {
+  outline: 1px solid black;
+  outline-offset: -.5px;
+}
+
+@media only screen and (min-width: 960px) {
+  #a, #b, #c, #d, #e, #f, #g, #h, #i {
+    display: none;
+  }
+
+  img {
+    float: left;
+  }
+}  
+
+@media only screen and (max-width: 960px) {
+  #a1, #b1, #c1, #d1, #e1, #f1, #g1, #h1, #i1 {
+    display: none;
+  }
+#g {
+  clear: both;
+}
+}
+  
