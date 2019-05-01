@@ -2,7 +2,7 @@ div{
   text-align: center;
 }
 
-/* desktop */
+/* desktop version*/
 @media (min-width: 960px) {
   #a {
     height: 100px;
@@ -57,9 +57,10 @@ div{
     line-height: 150px;
     background: crimson;
   }
+
 }
 
-/* mobile */
+/* mobile version*/
 @media(max-width: 959px){
   #a {
     height: 75px;
@@ -114,4 +115,5 @@ div{
     line-height: 80px;
     background: red;
   }
+  
 }
