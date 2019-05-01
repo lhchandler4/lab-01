@@ -60,7 +60,7 @@ div{
 
 }
 
-/* mobile version*/
+/* tablet version*/
 @media(max-width: 959px){
   #a {
     height: 75px;
@@ -114,6 +114,64 @@ div{
     height: 80px;
     line-height: 80px;
     background: red;
+  }
+  
+}
+
+/* mobile version*/
+@media(max-width: 767px){
+  #a {
+    height: 75px;
+    line-height: 75px;
+    background: pink;
+  }
+
+  #b {
+    height: 150px;
+    line-height: 150px;
+    background: orangered;
+  }
+
+  #c {
+    height: 125px;
+    line-height: 125px;
+    background:magenta;
+  }
+
+  #d {
+    height: 125px;
+    line-height: 125px;
+    background: blue;
+  }
+
+  #e {
+    height: 250px;
+    line-height: 250px;
+    background: green;
+  }
+
+  #f {
+    height: 250px;
+    line-height: 250px;
+    background: greenyellow;
+  }
+
+  #g {
+    height: 250px;
+    line-height: 250px;
+    background: red;
+  }
+
+  #h {
+    height: 250px;
+    line-height: 250px;
+    background: navy;
+  }
+
+  #i {
+    height: 80px;
+    line-height: 80px;
+    background: yellow;
   }
   
 }
